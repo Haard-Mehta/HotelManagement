@@ -1,0 +1,11 @@
+write
+(
+holder
+hotel_ob
+)
+{
+this
+.
+hotel_ob=hotel_ob
+;
+}

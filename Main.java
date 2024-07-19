@@ -91,7 +91,7 @@ class Hotel
 {
     static holder hotel_ob=new holder();
     static Scanner sc = new Scanner(System.in);
-    static void CustDetails(int i,int rn)
+    static void CustomerDetails(int i,int rn)
     {
         String name, contact, gender;
         String name2 = null, contact2 = null; 
@@ -146,7 +146,7 @@ class Hotel
                 rn--;
                 if(hotel_ob.luxury_doublerrom[rn]!=null)
                     throw new NotAvailable();
-                CustDetails(i,rn);
+                CustomerDetails(i,rn);
                 }
                 catch(Exception e)
                 {
@@ -168,7 +168,7 @@ class Hotel
                 rn=rn-11;
                 if(hotel_ob.deluxe_doublerrom[rn]!=null)
                     throw new NotAvailable();
-                CustDetails(i,rn);
+                CustomerDetails(i,rn);
                 }
                 catch(Exception e)
                 {
@@ -190,7 +190,7 @@ class Hotel
                 rn=rn-31;
                 if(hotel_ob.luxury_singleerrom[rn]!=null)
                     throw new NotAvailable();
-                CustDetails(i,rn);
+                CustomerDetails(i,rn);
                 }
                 catch(Exception e)
                 {
@@ -212,7 +212,7 @@ class Hotel
                 rn=rn-41;
                 if(hotel_ob.deluxe_singleerrom[rn]!=null)
                     throw new NotAvailable();
-                CustDetails(i,rn);
+                CustomerDetails(i,rn);
                 }
                 catch(Exception e)
                 {

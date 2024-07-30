@@ -1,0 +1,13 @@
+public
+void
+settingDemandQuantity
+(
+int
+demandQty
+)
+{
+this
+.
+demandQty=demandQty
+;
+}

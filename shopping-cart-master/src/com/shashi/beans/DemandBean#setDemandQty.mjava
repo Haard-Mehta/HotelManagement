@@ -1,6 +1,6 @@
 public
 void
-settingDemandQuantity
+setDemandQty
 (
 int
 demandQty

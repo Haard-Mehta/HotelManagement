@@ -142,7 +142,7 @@ demandQty
 }
 public
 void
-settingDemandQuantity
+setDemandQty
 (
 int
 demandQty

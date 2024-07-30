@@ -40,7 +40,7 @@ public class DemandBean implements Serializable {
 		return demandQty;
 	}
 
-	public void setDemandQty(int demandQty) {
+	public void settingDemandQuantity(int demandQty) {
 		this.demandQty = demandQty;
 	}
 

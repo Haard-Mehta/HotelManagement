@@ -1,8 +1,0 @@
-public
-String
-getUserId
-(
-String
-transId
-)
-;
